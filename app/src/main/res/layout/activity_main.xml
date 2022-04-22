@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:gravity="right"
     android:padding="20dp"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -80,11 +81,13 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개 안함"/>
 
     </RadioGroup>
 
     <CheckBox
+        android:visibility="visible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"
