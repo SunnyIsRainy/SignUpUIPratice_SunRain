@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="right"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -26,6 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="아이디"/>
 
     <EditText
@@ -37,6 +39,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="비밀번호"/>
 
     <EditText
@@ -48,6 +51,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="닉네임"/>
 
     <EditText
@@ -60,7 +64,8 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -83,12 +88,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"
+        android:layout_marginTop="10dp"
         android:text="이용 약관 동의"
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="환인"/>
+        android:layout_marginTop="10dp"
+        android:text="확인"/>
 
 
 </LinearLayout>
