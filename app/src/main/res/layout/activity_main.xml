@@ -94,11 +94,31 @@
         android:layout_marginTop="10dp"
         android:text="이용 약관 동의"
 
-    <Button
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="확인"/>
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="확인"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="취소"/>
+
+    </LinearLayout>
+
+
 
 
 </LinearLayout>
